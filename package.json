@@ -2,9 +2,9 @@
   "name": "rmtbot",
   "version": "0.0.1",
   "description": "rmtbot",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node ."
   },
   "author": "tina liang",
   "dependencies": {
