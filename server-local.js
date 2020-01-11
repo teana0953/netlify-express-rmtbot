@@ -25,6 +25,9 @@ bot.on('message', function (event) {
 
 const app = require('./express/server');
 const linebotParser = bot.parser();
+app.get('/', (req, res) => {
+    console.log('GET!!');
+})
 app.post('/', linebotParser);
 
 app.listen(3000, () => console.log('Local app listening on port 3000!'));
