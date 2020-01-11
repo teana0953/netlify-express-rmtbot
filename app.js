@@ -24,6 +24,9 @@ bot.on('message', function (event) {
 
 const app = express();
 const linebotParser = bot.parser();
+app.get('/', (req, res) => {
+    res.sendStatus(200);
+});
 app.post('/', linebotParser);
 
 var server = app.listen(process.env.PORT || 8080, function () {
