@@ -2,9 +2,9 @@ var linebot = require('linebot');
 var express = require('express');
 
 var bot = linebot({
-    channelId: '這裡改成自己Line的channelId',
-    channelSecret: '這裡改成自己Line的channelSecret',
-    channelAccessToken: '這裡改成自己Line的channelAccessToken'
+    channelId: '1653758960',
+    channelSecret: '57cd2a383c80c1671152b32944c19973',
+    channelAccessToken: '6q4bzy5ffvKHQe0xke5Ung3B0y4tlKKN5JvhEOGGcAltxFWE8YPUxyChX+6bt+9H7pLKTEuwCYqoyocO8UeY6lpE17090poMHWVnRDkep8b2tGlT+qbBhHnMgZFcFYTSToqlCzUh8EBw1faJ4dHVnwdB04t89/1O/w1cDnyilFU='
 });
 
 //這一段的程式是專門處理當有人傳送文字訊息給LineBot時，我們的處理回應
